@@ -36,13 +36,16 @@ const App = () => {
             </View>
           )}
           <View style={styles.body}>
+          <Hello name="Progress Indicators"/>
+
+          <Hello name="Indeterminate linear progress Indicators ~~~~ 
+         Indetermintae operations display the indicator continually growing and shrinking along the track until the process is complete."/>
           <Loader 
           isVisible={true} 
           duration={1500}
           trackColor='#DEC6FC'
           indicatorColor='#7119f1'
           />
-          <Hello name="Let's Load"/>
           </View>
         </ScrollView>
       </SafeAreaView>

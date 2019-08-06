@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     container: {
         display: 'flex',
         width: '100%',
-        height: 10,
+        height: 4,
         backgroundColor: Style.TRACK
     },
     loadingIndicator: {
